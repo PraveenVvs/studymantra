@@ -1,0 +1,7 @@
+node.js 
+react.js
+reactnative.js 
+electron.js
+html->structure(markup language)
+css-appearence add style 
+js -functionality(Button,pages) 

@@ -1,0 +1,48 @@
+*, body {
+    margin: 0;
+    padding: 0;
+  }
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  iframe {
+    height: 45%;
+    width: 23%;
+    margin: 5px;
+    font-size:5px;
+    display: none;
+  }
+  #loadMore1,
+  #loadMore2 {
+    width: 200px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: blue;
+    transition: .3s;
+  }
+  #loadMore1:hover,
+  #loadMore2:hover
+   {
+    color: blue;
+    background-color: #fff;
+    border: 1px solid blue;
+    text-decoration: none;
+  }
+  .noContent1 {
+    color: #000 !important;
+    background-color: transparent !important;
+    pointer-events: none;
+  }
+  .noContent2 {
+    color: #000 !important;
+    background-color: transparent !important;
+    pointer-events: none;
+  }
